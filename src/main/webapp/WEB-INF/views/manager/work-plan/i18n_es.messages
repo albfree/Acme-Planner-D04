@@ -1,0 +1,37 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.work-plan.form.label.title = Título:
+manager.work-plan.form.label.startExecutionPeriod = Inicio del periodo de ejecución:
+manager.work-plan.form.label.endExecutionPeriod = Final del periodo de ejecución:
+manager.work-plan.form.label.total-workload = Carga total de trabajo:
+manager.work-plan.form.label.share = Visibilidad:
+manager.work-plan.form.label.task.add = Añadir tarea:
+manager.work-plan.form.label.task.delete = Eliminar tarea:
+
+manager.work-plan.list.label.title = Título
+manager.work-plan.list.label.startExecutionPeriod = Inicio del periodo
+manager.work-plan.list.label.endExecutionPeriod = Final del periodo
+manager.work-plan.list.label.share = Visibilidad
+
+manager.work-plan.form.button.create = Crear
+manager.work-plan.form.button.update = Actualizar
+manager.work-plan.form.button.delete = Eliminar
+manager.work-plan.form.button.return = Volver
+
+manager.work-plan.form.button.task.list = Ver tareas del plan de trabajo
+
+manager.work-plan.form.error.has-private-tasks = Los planes de trabajo que contienen tareas privadas no se pueden publicar
+manager.work-plan.form.error.period-invalid = El final del periodo de ejecución debe ser posterior al inicio
+manager.work-plan.form.error.period-tasks-invalid = El periodo de ejecución del plan de trabajo debe ser mayor que el de todas sus tareas
+manager.work-plan.form.error.task.private.invalid = No puede añadir una tarea privada a un plan de trabajo público
+manager.work-plan.form.error.task.contains.invalid = Esta tarea ya pertenece al plan de trabajo
+manager.work-plan.form.error.task.period.invalid = El periodo de ejecución de la tarea no se ajusta al del plan de trabajo
+manager.work-plan.form.error.contains-spam = Esta cadena de texto contiene un porcentaje alto de palabras spam

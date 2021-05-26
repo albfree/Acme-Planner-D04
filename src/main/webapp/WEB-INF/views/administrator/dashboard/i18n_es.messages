@@ -1,0 +1,40 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.title.show = Panel de indicadores
+administrator.dashboard.form.title.chart = Gráfica de planes de trabajo
+administrator.dashboard.form.title.task-indicators = Indicadores de tareas
+administrator.dashboard.form.title.workplan-indicators = Indicadores de planes de trabajo
+
+administrator.dashboard.form.label.totalNumberOfPublicTasks = Número total de tareas públicas:
+administrator.dashboard.form.label.totalNumberOfPrivateTasks = Número total de tareas privadas:
+administrator.dashboard.form.label.totalNumberOfFinishedTasks = Número total de tareas finalizadas:
+administrator.dashboard.form.label.totalNumberOfNonFinishedTasks = Número total de tareas no finalizadas:
+administrator.dashboard.form.label.averageTaskExecutionPeriods = Media de los periodos de ejecución de tareas:
+administrator.dashboard.form.label.deviationTaskExecutionPeriods = Desviación de los periodos de ejecución de tareas:
+administrator.dashboard.form.label.minimumTaskExecutionPeriod = Periodo de ejecución mínimo de tareas:
+administrator.dashboard.form.label.maximumTaskExecutionPeriod = Periodo de ejecución máximo de tareas:
+administrator.dashboard.form.label.averageTaskWorkloads = Media de las cargas de trabajo de tareas:
+administrator.dashboard.form.label.deviationTaskWorkloads = Desviación de las cargas de trabajo de tareas:
+administrator.dashboard.form.label.minimumTaskWorkload = Carga de trabajo mínima de tareas:
+administrator.dashboard.form.label.maximumTaskWorkload = Carga de trabajo máxima de tareas:
+
+administrator.dashboard.form.label.totalNumberOfPublicWorkPlans = Número total de planes de trabajo públicos:
+administrator.dashboard.form.label.totalNumberOfPrivateWorkPlans = Número total de planes de trabajo privados:
+administrator.dashboard.form.label.totalNumberOfFinishedWorkPlans = Número total de planes de trabajo finalizados:
+administrator.dashboard.form.label.totalNumberOfNonFinishedWorkPlans = Número total de planes de trabajo no finalizados:
+administrator.dashboard.form.label.averageWorkPlanExecutionPeriods = Media de los periodos de ejecución de planes de trabajo:
+administrator.dashboard.form.label.deviationWorkPlanExecutionPeriods = Desviación de los periodos de ejecución de planes de trabajo:
+administrator.dashboard.form.label.minimumWorkPlanExecutionPeriod = Periodo de ejecución mínimo de planes de trabajo:
+administrator.dashboard.form.label.maximumWorkPlanExecutionPeriod = Periodo de ejecución máximo de planes de trabajo:
+administrator.dashboard.form.label.averageWorkPlanTotalWorkloads = Media de las cargas de trabajo de planes de trabajo:
+administrator.dashboard.form.label.deviationWorkPlanTotalWorkloads = Desviación de las cargas de trabajo de planes de trabajo:
+administrator.dashboard.form.label.minimumWorkPlanTotalWorkload = Carga de trabajo mínima de planes de trabajo:
+administrator.dashboard.form.label.maximumWorkPlanTotalWorkload = Carga de trabajo máxima de planes de trabajo:

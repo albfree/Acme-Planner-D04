@@ -1,0 +1,36 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.task.form.label.title = Título:
+manager.task.form.label.startExecutionPeriod = Inicio del periodo de ejecución:
+manager.task.form.label.endExecutionPeriod = Final del periodo de ejecución:
+manager.task.form.label.workload = Carga de trabajo:
+manager.task.form.label.description = Descripción:
+manager.task.form.label.share = Visibilidad:
+manager.task.form.label.link = Enlace opcional:
+
+manager.task.list.label.title = Título
+manager.task.list.label.startExecutionPeriod = Inicio del periodo
+manager.task.list.label.endExecutionPeriod = Final del periodo
+manager.task.list.label.workload = Carga de trabajo
+
+manager.task.form.button.create = Crear
+manager.task.form.button.update = Actualizar
+manager.task.form.button.delete = Eliminar
+manager.task.form.button.return = Volver
+
+manager.task.form.error.workload-minutes-exceeded = Número máximo de minutos excedido (59)
+manager.task.form.error.max-workload-exceeded = Carga de trabajo máxima excedida
+manager.task.form.error.start-period-future = El inicio del periodo de ejecución debe estar en el futuro
+manager.task.form.error.end-period-future = El final del periodo de ejecución debe estar en el futuro
+manager.task.form.error.period-invalid = El final del periodo de ejecución debe ser posterior al inicio
+manager.task.form.error.contains-spam = Esta cadena de texto contiene un porcentaje alto de palabras spam
+manager.task.form.error.task.in.workplan = Para eliminar una tarea debes desvincularla de los planes de trabajo a los que pertenece
+manager.task.form.error.task.in.public.workplan = No se puede establecer como privada una tarea que pertenece a un plan de trabajo público

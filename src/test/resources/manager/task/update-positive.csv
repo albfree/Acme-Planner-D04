@@ -1,0 +1,4 @@
+recordIndex,title,startPeriod,endPeriod,workload,description,visibility,link,newTitle
+0,Task 01,2021/02/13 11:00,2021/03/16 21:30,30.00,This is the updated description for Task 01,PUBLIC,,Task 01
+1,Task 02,2021/08/24 12:00,2021/08/29 21:00,40.20,This is the description for Task 02,PRIVATE,http://www.example.org,Task 02
+2,Task 03,2021/03/10 10:00,2021/04/09 16:30,12.10,This is the description for Task 03,PUBLIC,https://www.anotherexample.net,Task 03 edit

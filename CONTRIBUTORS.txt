@@ -1,0 +1,18 @@
+# NOTICE.txt
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+- Rafael Corchuelo (corchu@us.es)
+
+- Alberto Guerrero Ramírez (albgueram@alum.us.es)
+- Gonzalo Delgado Chaves (gondelcha@alum.us.es)
+- Francisco Fernández Angulo (fraferang@alum.us.es)
+- José Manuel Escobar Ruesga (josescrue@alum.us.es)
+- Antonio Javier Moreno González (antmorgon4@alum.us.es)
+- José Joaquín Rojas Romero (josrojrom1@alum.us.es)

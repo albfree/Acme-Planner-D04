@@ -1,0 +1,4 @@
+recordIndex,title,startExecutionPeriod,endExecutionPeriod,share,totalWorkload
+0,Work plan 01,2021/01/01 15:00,2021/04/10 15:00,PUBLIC,52.30
+1,Work plan 02,2021/06/16 10:00,2021/09/25 15:00,PRIVATE,72.10
+2,Work plan 03,2021/03/16 13:00,2021/06/25 16:00,PRIVATE,0.00

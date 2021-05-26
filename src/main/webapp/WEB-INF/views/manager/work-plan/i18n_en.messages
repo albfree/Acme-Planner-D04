@@ -1,0 +1,37 @@
+# i18n_en.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+manager.work-plan.form.label.title = Title:
+manager.work-plan.form.label.startExecutionPeriod = Start of execution period:
+manager.work-plan.form.label.endExecutionPeriod = End of execution period:
+manager.work-plan.form.label.total-workload = Total workload:
+manager.work-plan.form.label.share = Visibility:
+manager.work-plan.form.label.task.add = Add task:
+manager.work-plan.form.label.task.delete = Delete task:
+
+manager.work-plan.list.label.title = Title
+manager.work-plan.list.label.startExecutionPeriod = Period starts
+manager.work-plan.list.label.endExecutionPeriod = Period ends
+manager.work-plan.list.label.share = Visibility
+
+manager.work-plan.form.button.create = Create
+manager.work-plan.form.button.update = Update
+manager.work-plan.form.button.delete = Delete
+manager.work-plan.form.button.return = Return
+
+manager.work-plan.form.button.task.list = View work plan tasks
+
+manager.work-plan.form.error.has-private-tasks = Work plans that contains private tasks can not be published
+manager.work-plan.form.error.period-invalid = The end of execution period must be later than the start
+manager.work-plan.form.error.period-tasks-invalid = Work plan execution period must be greater than all periods of his tasks
+manager.work-plan.form.error.task.private.invalid = You cannot add a private task to a public work plan
+manager.work-plan.form.error.task.contains.invalid = This task already belongs to the work plan
+manager.work-plan.form.error.task.period.invalid = The execution period of the task does not conform to that of the work plan
+manager.work-plan.form.error.contains-spam = This text string contains a high percentage of spam words
