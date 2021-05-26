@@ -13,7 +13,7 @@ who have enroled the Design and Testing subject of the Software Engineering curr
 University of Sevilla.  This project helps them start working on their new information system 
 projects.
 
-This is Acme Planner D03, the third project of Group 11 for Design & Testing 2 subject.
+This is Acme Planner D04, the fourth project of Group 11 for Design & Testing 2 subject.
 
 # Apunte sobre Clever Cloud: debido a un error que se desconocía, en la aplicación desplegada las
 URLs que contienen /manager provocan errores. Para solucionarlo, se modifica el campo 'context' del war.json
