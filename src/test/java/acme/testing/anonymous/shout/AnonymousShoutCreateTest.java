@@ -8,8 +8,6 @@ import acme.testing.AcmePlannerTest;
 
 public class AnonymousShoutCreateTest extends AcmePlannerTest{
 
-//	createPositive(final int recordIndex, final String moment, final String author, final String text, final String info):
-//	     
 //	  - Caso positivo de la acción create sobre la entidad Shout por parte del rol Anonymous
 //	  - El test espera resultados positivos comprobando que se ha creado la entidad y es posible visualizar sus datos.
 //	  - Los datos utilizados en el fichero .csv son shouts válidos
@@ -17,7 +15,7 @@ public class AnonymousShoutCreateTest extends AcmePlannerTest{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/anonymous/shout/create-positive.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(10)
-	public void createPositive(final int recordIndex, final String moment, final String author, final String text, final String info) {
+	public void createPositive(final int recordIndex, final String author, final String text, final String info) {
 		
 		super.clickOnMenu("Anonymous", "Create shout");
 		
@@ -27,12 +25,14 @@ public class AnonymousShoutCreateTest extends AcmePlannerTest{
 		super.clickOnSubmitButton("Shout!");
 
 		super.clickOnMenu("Anonymous", "Shouts list");
+		
+		super.checkColumnHasValue(recordIndex, 1, author);
+		super.checkColumnHasValue(recordIndex, 2, text);
+		super.checkColumnHasValue(recordIndex, 3, info);
 
 		
 	}
 	
-//	createNegative(final int recordIndex, final String moment, final String author, final String text, final String info):
-//	 
 //        - Caso negativo de la acción create sobre la entidad Shout por parte del rol Anonymous
 //        - El test espera resultados negativos comprobando que existen errores al intentar crear una entidad.
 //        - Los datos utilizados en el fichero .csv son shouts inválidos
@@ -49,8 +49,8 @@ public class AnonymousShoutCreateTest extends AcmePlannerTest{
 //	     
 	@ParameterizedTest
 	@CsvFileSource(resources = "/anonymous/shout/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
-	@Order(10)
-	public void createNegative(final int recordIndex, final String moment, final String author, final String text, final String info) {
+	@Order(20)
+	public void createNegative(final int recordIndex, final String author, final String text, final String info) {
 		
 		super.clickOnMenu("Anonymous", "Create shout");
 		

@@ -20,6 +20,11 @@ URLs que contienen /manager provocan errores. Para solucionarlo, se modifica el 
 y para probar la aplicación desplegada habrá que añadir a la URL que proporciona Clever Cloud
 lo siguiente: /Acme-Planner
 
+### CUARTA ENTREGA - Interpretaciones y consideraciones:
+
+- En casos como los listados o los shows, como por ejemplo el de Dashboard, no se han implementado casos negativos
+en los tests porque no es posible realizarlos.
+
 ### TERCERA ENTREGA - Interpretaciones y consideraciones:
 
 - Hay servicios en los que no se alcanza el 60% debido a que los métodos unbind no se ejecutan, por ejemplo,
